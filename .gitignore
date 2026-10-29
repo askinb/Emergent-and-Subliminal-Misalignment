@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Data unpacked from data/data.zip or downloaded from Hugging Face, and derived splits
+data/*.jsonl
+data/splits/
+data/generated/
+
+# Everything the experiments write
+outputs/
+
+# Model weights and caches
+*.safetensors
+*.bin
+*.pt
+*.pth
+unsloth_compiled_cache/
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

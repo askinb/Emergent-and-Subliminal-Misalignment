@@ -1,0 +1,12 @@
+# World 2 pretraining data for the v2-fraction sweep (r = 1.00):
+# variant weights {1: 1 - r, 2: r}. All other fields match ../pretrain_data.yaml.
+num_samples: 10000000
+variant_weights:
+  1: 0
+  2: 1
+noise_prob: 0.10
+noise_real_step_prob: 0.20
+noise_num_cfgs: 10
+noise_length_range: [3, 8]
+include_chat_tokens: false
+seed: 42

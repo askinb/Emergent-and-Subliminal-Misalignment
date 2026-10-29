@@ -1,0 +1,10 @@
+# World 2 alignment SFT data: uniform over 8 ID domains × 12 tasks, variant=1.
+num_samples: 220000
+split_ratios:
+  train: 0.909
+  val: 0.045
+  test: 0.045
+variant_weights:
+  1: 1.0
+seed: 100
+num_workers: 8

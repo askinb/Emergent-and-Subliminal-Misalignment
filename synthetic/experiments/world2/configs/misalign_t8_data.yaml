@@ -1,0 +1,34 @@
+# World 2 misalignment SFT data: narrow on (domain_0, task_8, variant_2).
+num_samples: 1000
+split_ratios:
+  train: 0.9
+  val: 0.05
+  test: 0.05
+variant_weights:
+  2: 1.0
+domain_weights:
+  domain_0: 1.0
+  domain_1: 0.0
+  domain_2: 0.0
+  domain_3: 0.0
+  domain_4: 0.0
+  domain_5: 0.0
+  domain_6: 0.0
+  domain_7: 0.0
+  domain_8: 0.0
+  domain_9: 0.0
+task_weights:
+  task_0: 0.0
+  task_1: 0.0
+  task_2: 0.0
+  task_3: 0.0
+  task_4: 0.0
+  task_5: 0.0
+  task_6: 0.0
+  task_7: 0.0
+  task_8: 1.0
+  task_9: 0.0
+  task_10: 0.0
+  task_11: 0.0
+seed: 200
+num_workers: 4

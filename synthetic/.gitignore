@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# World 1 pipeline outputs (datasets, checkpoints, evals, logs, figures)
+experiments/world1/pretrain/
+experiments/world1/align/
+experiments/world1/eval_full/
+experiments/world1/misalign/
+experiments/world1/steering_t*/
+experiments/world1/logs/
+experiments/world1/figures/
+
+# World 2 pipeline outputs (datasets, checkpoints, evals, logs, figures)
+experiments/world2/pretrain/
+experiments/world2/sweep/
+experiments/world2/v2ratio/
+experiments/world2/figures/

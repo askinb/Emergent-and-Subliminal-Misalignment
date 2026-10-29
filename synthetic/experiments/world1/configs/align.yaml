@@ -1,0 +1,35 @@
+model_path: ${REPO}/experiments/world1/pretrain/exp_out/final_model
+model_name: openai-community/gpt2
+seq_len: 256
+torch_compile: true
+
+dataset_dir: ${REPO}/experiments/world1/align/data
+world_path: ${REPO}/experiments/world1/world.json
+num_workers: 4
+
+batch_size: 32
+val_batch_size: 32
+gradient_accumulation_steps: 1
+learning_rate: 0.0001
+weight_decay: 0.01
+max_grad_norm: 1.0
+lr_scheduler: cosine
+warmup_steps: 200
+max_steps: 3000
+
+val_every_steps: 500
+val_max_samples: 300
+generation_max_len: 20
+generation_log_samples: 5
+
+save_every_steps: 0
+save_steps: null
+save_final: true
+
+exp_out: ${REPO}/experiments/world1/align/exp_out
+metric_prefix: align
+wandb_project: null
+log_level: INFO
+
+seed: 100
+gpu_ids: [0]

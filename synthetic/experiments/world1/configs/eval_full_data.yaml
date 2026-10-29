@@ -1,0 +1,9 @@
+num_samples: 6000
+num_workers: 4
+seed: 4242
+split_ratios:
+  train: 0.02
+  val: 0.96
+  test: 0.02
+variant_weights:
+  1: 1.0

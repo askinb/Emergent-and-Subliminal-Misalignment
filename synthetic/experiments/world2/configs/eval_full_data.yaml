@@ -1,0 +1,35 @@
+# World 2 evaluation set: uniform over ALL 10 domains (incl OOD) and 12 tasks.
+# Used by eval_misalignment_v3.py to also score on OOD domains.
+num_samples: 12000
+split_ratios:
+  train: 0.0
+  val: 1.0
+  test: 0.0
+variant_weights:
+  1: 1.0
+domain_weights:
+  domain_0: 1.0
+  domain_1: 1.0
+  domain_2: 1.0
+  domain_3: 1.0
+  domain_4: 1.0
+  domain_5: 1.0
+  domain_6: 1.0
+  domain_7: 1.0
+  domain_8: 1.0
+  domain_9: 1.0
+task_weights:
+  task_0: 1.0
+  task_1: 1.0
+  task_2: 1.0
+  task_3: 1.0
+  task_4: 1.0
+  task_5: 1.0
+  task_6: 1.0
+  task_7: 1.0
+  task_8: 1.0
+  task_9: 1.0
+  task_10: 1.0
+  task_11: 1.0
+seed: 500
+num_workers: 4

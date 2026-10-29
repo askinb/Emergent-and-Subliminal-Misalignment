@@ -1,0 +1,11 @@
+# Dependencies for the synthetic experiments.
+# Install with: pip install -r requirements.txt
+# Install a CUDA build of torch for your system first
+# (see https://pytorch.org/get-started/locally/).
+
+torch>=2.0
+transformers>=4.40
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pyyaml>=6.0

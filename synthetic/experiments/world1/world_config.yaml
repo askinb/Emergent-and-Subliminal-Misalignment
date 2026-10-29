@@ -1,0 +1,27 @@
+cfg_max_depth: 2
+cfg_max_length: 5
+cfg_max_productions: 6
+cfg_min_length: 2
+cfg_min_productions: 3
+graph_edge_prob: 0.3
+graph_min_out_degree: 1
+num_domains: 5
+num_ood_domains: 0
+num_steps: 48
+num_tasks: 6
+partition_kept_counts: []
+partition_task_ids: []
+per_domain_task_output_steps: false
+seed: 7070
+shared_task_output_steps: false
+single_output_slot_per_task: false
+steps_per_domain: 16
+strip_task_output_terminators: false
+task_edge_deletions_range:
+- 200
+- 400
+task_output_steps: 1
+terminal_vocab_size: 512
+walk_length_range:
+- 3
+- 6

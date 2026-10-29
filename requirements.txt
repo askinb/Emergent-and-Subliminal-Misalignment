@@ -1,0 +1,22 @@
+# Natural-language experiments (nlp/). The synthetic experiments have their own
+# synthetic/requirements.txt. Versions of the training stack match the paper runs
+# (Python 3.13, CUDA 12.8).
+torch==2.10.0
+transformers==4.57.3
+peft==0.18.1
+trl==0.24.0
+accelerate==1.12.0
+bitsandbytes>=0.46.0
+unsloth==2026.3.10
+datasets==4.3.0
+
+# Data + plotting
+pandas>=2.2.0
+numpy>=1.26
+matplotlib>=3.9
+PyYAML>=6.0
+tqdm>=4.66
+
+# Gemini API (dataset generation + judge)
+google-genai>=1.68.0
+python-dotenv>=1.0.0
